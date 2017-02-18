@@ -6,6 +6,7 @@ test/
 /wp-content/themes/sg-double/
 /wp-content/themes/sg-window-child_OLD/
 /wp-content/uploads/
+error_log
 
 
 # WP files
