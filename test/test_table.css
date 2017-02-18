@@ -1,0 +1,133 @@
+/*
+.table {
+	display:table;
+	width:100%;
+	border-collapse:collapse;
+	overflow-x:auto;
+}
+
+.table-row {
+	display:table-row;
+}
+
+.table-cell, .table-head {
+	display:table-cell;
+	padding:1em;
+	border:1px solid #ccc;
+}
+
+.table-head {
+	font-weight:bold;
+	text-align:center;
+}
+*/
+
+/*  Generic Styling, for desktops/laptops */
+table { 
+	width:100%; 
+	border-collapse:collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+	background:#eee; 
+}
+th { 
+	background:#333; 
+	color:white; 
+	font-weight:bold; 
+}
+td, th { 
+	padding:6px; 
+	border:1px solid #ccc; 
+	text-align:left; 
+}
+
+
+@media 
+only screen and (max-width:760px) {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display:block; 
+	}
+	
+	/* Hide table headers (but not display:none;, for accessibility) */
+	thead tr { 
+		position:absolute;
+		top:-9999px;
+		left:-9999px;
+	}
+	
+	tr {
+		border:1px solid #ccc;
+	}
+	
+	td { 
+		/* Behave  like a "row" */
+		border:none;
+		border-bottom:1px solid #eee; 
+		position:relative;
+		padding-left:50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position:absolute;
+		/* Top/left values mimic padding */
+		top:6px;
+		left:6px;
+		width:45%; 
+		padding-right:10px; 
+		white-space:nowrap;
+	}
+	
+	/* Label the data */
+	td.tbl_household:nth-of-type(1):before { content:"Household Members"; }
+	td.tbl_household:nth-of-type(2):before { content:"Annual Gross Income"; }
+	td.tbl_household:nth-of-type(3):before { content:"Annual Asset Amount"; }
+	td.tbl_household:nth-of-type(4):before { content:"Total Annual Income"; }
+
+	td.tbl_units:nth-of-type(1):before { content:"Building Name"; }
+	td.tbl_units:nth-of-type(2):before { content:"Unit Name"; }
+	td.tbl_units:nth-of-type(3):before { content:"Number of Bedrooms"; }
+	td.tbl_units:nth-of-type(4):before { content:"Occupancy"; }
+	td.tbl_units:nth-of-type(5):before { content:"Monthly Rent"; }
+	td.tbl_units:nth-of-type(6):before { content:"Required Minimum Income"; }
+	td.tbl_units:nth-of-type(7):before { content:"Required Maximum Income"; }
+}
+/*
+@media screen and (max-width:600px) {
+
+	table {
+		border:0;
+	}
+
+	table thead {
+		display:none;
+	}
+
+	table tr {
+		margin-bottom:10px;
+		display:block;
+		border-bottom:2px solid #ddd;
+	}
+
+	table td {
+		display:block;
+		text-align:right;
+		font-size:13px;
+		border-bottom:1px dotted #ccc;
+	}
+
+	table td:last-child {
+		border-bottom:0;
+	}
+
+	table td:before {
+		content:attr(data-label);
+		float:left;
+		text-transform:uppercase;
+		font-weight:bold;
+	}
+}
+*/

@@ -1,7 +1,6 @@
 # temp and others
 temp/
 backup/
-test/
 /wp-content/debug*.*
 /wp-content/themes/sg-double/
 /wp-content/themes/sg-window-child_OLD/
