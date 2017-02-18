@@ -14,12 +14,13 @@ Author:      Sylvia Wun
  * @tag my_ninja_forms_processing
  * @callback my_ninja_forms_processing_callback
  */
-add_action( 'my_ninja_forms_processing', 'my_ninja_forms_processing_callback' );
+//add_action( 'my_ninja_forms_processing', 'my_ninja_forms_processing_callback' );
 
 /**
  * @param $form_data array
  * @return void
  */
+ /*
 function my_ninja_forms_processing_callback( $form_data ){
     $form_id       = $form_data[ 'id' ];
     $form_fields   =  $form_data[ 'fields' ];
@@ -36,7 +37,7 @@ function my_ninja_forms_processing_callback( $form_data ){
     $form_settings = $form_data[ 'settings' ];
     $form_title    = $form_data[ 'settings' ][ 'title' ];
 }
-
+*/
 
 // In the UI, add a custom form action with hook tag TPA_preapp_sub_post_process.
 
@@ -169,7 +170,7 @@ function TPA_preapp_sub_post_process( $form_data ) {
 							// Save pre-qualified unit slugs for the submission in the custom table
 							$PreAppUnitSlug = $units->field( 'post_name' );
 							global $wpdb;
-							$tblName = $wpdb->prefix . "pre_app_units"; 
+							$tblName = $wpdb->prefix . "pre_app_units";
 							$wpdb->insert($tblName, 
 											array(
 												'sub_id' => $form_id,
@@ -177,10 +178,22 @@ function TPA_preapp_sub_post_process( $form_data ) {
 											) 
 										);
 						} else {
+							global $wpdb;
+							$tblName = $wpdb->prefix . "pre_app_sub_fails";
 							if ( $applicantInfo["TotalAnnualIncome"] < $unitMinIncome ) {
-								$UnderQual = true;
+								$wpdb->insert($tblName, 
+												array(
+													'sub_id' => $form_id,
+													'under_qualified' => 1
+												) 
+											);
 							} elseif ( $applicantInfo["TotalAnnualIncome"] > $unitHouseholdSizeMaxIncome ) {
-								$OverQual = true;
+								$wpdb->insert($tblName, 
+												array(
+													'sub_id' => $form_id,
+													'over_qualified' => 1
+												) 
+											);
 							}
 						}
 					}
