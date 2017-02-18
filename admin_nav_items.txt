@@ -1,0 +1,653 @@
+Array
+(
+    [2] => Array
+        (
+            [0] => Dashboard
+            [1] => read
+            [2] => index.php
+            [3] => 
+            [4] => menu-top menu-top-first menu-icon-dashboard
+            [5] => menu-dashboard
+            [6] => dashicons-dashboard
+        )
+
+    [4] => Array
+        (
+            [0] => 
+            [1] => read
+            [2] => separator1
+            [3] => 
+            [4] => wp-menu-separator
+        )
+
+    [10] => Array
+        (
+            [0] => Media
+            [1] => upload_files
+            [2] => upload.php
+            [3] => 
+            [4] => menu-top menu-icon-media
+            [5] => menu-media
+            [6] => dashicons-admin-media
+        )
+
+    [15] => Array
+        (
+            [0] => Links
+            [1] => manage_links
+            [2] => edit-tags.php?taxonomy=link_category
+            [3] => 
+            [4] => menu-top menu-icon-links
+            [5] => menu-links
+            [6] => dashicons-admin-links
+        )
+
+    [25] => Array
+        (
+            [0] => Comments 0
+            [1] => edit_posts
+            [2] => edit-comments.php
+            [3] => 
+            [4] => menu-top menu-icon-comments
+            [5] => menu-comments
+            [6] => dashicons-admin-comments
+        )
+
+    [5] => Array
+        (
+            [0] => Posts
+            [1] => edit_posts
+            [2] => edit.php
+            [3] => 
+            [4] => menu-top menu-icon-post open-if-no-js
+            [5] => menu-posts
+            [6] => dashicons-admin-post
+        )
+
+    [20] => Array
+        (
+            [0] => Pages
+            [1] => edit_pages
+            [2] => edit.php?post_type=page
+            [3] => 
+            [4] => menu-top menu-icon-page
+            [5] => menu-pages
+            [6] => dashicons-admin-page
+        )
+
+    [26] => Array
+        (
+            [0] => Feedback
+            [1] => edit_pages
+            [2] => edit.php?post_type=feedback
+            [3] => 
+            [4] => menu-top menu-icon-feedback
+            [5] => menu-posts-feedback
+            [6] => http://test.asianinc.org/tenantapp/wp-content/plugins/jetpack/modules/contact-form//images/grunion-menu.png
+        )
+
+    [21] => Array
+        (
+            [0] => Portfolio
+            [1] => edit_pages
+            [2] => edit.php?post_type=jetpack-portfolio
+            [3] => 
+            [4] => menu-top menu-icon-jetpack-portfolio
+            [5] => menu-posts-jetpack-portfolio
+            [6] => dashicons-portfolio
+        )
+
+    [27] => Array
+        (
+            [0] => Units
+            [1] => edit_unit_types
+            [2] => edit.php?post_type=unit_type
+            [3] => 
+            [4] => menu-top menu-icon-unit_type
+            [5] => menu-posts-unit_type
+            [6] => dashicons-admin-post
+        )
+
+    [59] => Array
+        (
+            [0] => 
+            [1] => read
+            [2] => separator2
+            [3] => 
+            [4] => wp-menu-separator
+        )
+
+    [60] => Array
+        (
+            [0] => Appearance
+            [1] => switch_themes
+            [2] => themes.php
+            [3] => 
+            [4] => menu-top menu-icon-appearance
+            [5] => menu-appearance
+            [6] => dashicons-admin-appearance
+        )
+
+    [65] => Array
+        (
+            [0] => Plugins 4
+            [1] => activate_plugins
+            [2] => plugins.php
+            [3] => 
+            [4] => menu-top menu-icon-plugins
+            [5] => menu-plugins
+            [6] => dashicons-admin-plugins
+        )
+
+    [70] => Array
+        (
+            [0] => Users
+            [1] => list_users
+            [2] => users.php
+            [3] => 
+            [4] => menu-top menu-icon-users
+            [5] => menu-users
+            [6] => dashicons-admin-users
+        )
+
+    [75] => Array
+        (
+            [0] => Tools
+            [1] => edit_posts
+            [2] => tools.php
+            [3] => 
+            [4] => menu-top menu-icon-tools
+            [5] => menu-tools
+            [6] => dashicons-admin-tools
+        )
+
+    [80] => Array
+        (
+            [0] => Settings
+            [1] => manage_options
+            [2] => options-general.php
+            [3] => 
+            [4] => menu-top menu-icon-settings
+            [5] => menu-settings
+            [6] => dashicons-admin-settings
+        )
+
+    [99] => Array
+        (
+            [0] => 
+            [1] => read
+            [2] => separator-last
+            [3] => 
+            [4] => wp-menu-separator
+        )
+
+)
+Array
+(
+    [index.php] => Array
+        (
+            [0] => Array
+                (
+                    [0] => Home
+                    [1] => read
+                    [2] => index.php
+                )
+
+            [10] => Array
+                (
+                    [0] => Updates 9
+                    [1] => update_core
+                    [2] => update-core.php
+                )
+
+        )
+
+    [upload.php] => Array
+        (
+            [5] => Array
+                (
+                    [0] => Library
+                    [1] => upload_files
+                    [2] => upload.php
+                )
+
+            [10] => Array
+                (
+                    [0] => Add New
+                    [1] => upload_files
+                    [2] => media-new.php
+                )
+
+        )
+
+    [edit-comments.php] => Array
+        (
+            [0] => Array
+                (
+                    [0] => All Comments
+                    [1] => edit_posts
+                    [2] => edit-comments.php
+                )
+
+        )
+
+    [edit.php] => Array
+        (
+            [5] => Array
+                (
+                    [0] => All Posts
+                    [1] => edit_posts
+                    [2] => edit.php
+                )
+
+            [10] => Array
+                (
+                    [0] => Add New
+                    [1] => edit_posts
+                    [2] => post-new.php
+                )
+
+            [15] => Array
+                (
+                    [0] => Categories
+                    [1] => manage_categories
+                    [2] => edit-tags.php?taxonomy=category
+                )
+
+            [16] => Array
+                (
+                    [0] => Tags
+                    [1] => manage_categories
+                    [2] => edit-tags.php?taxonomy=post_tag
+                )
+
+        )
+
+    [edit.php?post_type=page] => Array
+        (
+            [5] => Array
+                (
+                    [0] => All Pages
+                    [1] => edit_pages
+                    [2] => edit.php?post_type=page
+                )
+
+            [10] => Array
+                (
+                    [0] => Add New
+                    [1] => edit_pages
+                    [2] => post-new.php?post_type=page
+                )
+
+        )
+
+    [edit.php?post_type=feedback] => Array
+        (
+            [5] => Array
+                (
+                    [0] => Feedback
+                    [1] => edit_pages
+                    [2] => edit.php?post_type=feedback
+                )
+
+        )
+
+    [edit.php?post_type=jetpack-portfolio] => Array
+        (
+            [5] => Array
+                (
+                    [0] => All Projects
+                    [1] => edit_pages
+                    [2] => edit.php?post_type=jetpack-portfolio
+                )
+
+            [10] => Array
+                (
+                    [0] => Add New
+                    [1] => edit_pages
+                    [2] => post-new.php?post_type=jetpack-portfolio
+                )
+
+            [15] => Array
+                (
+                    [0] => Project Types
+                    [1] => manage_categories
+                    [2] => edit-tags.php?taxonomy=jetpack-portfolio-type&post_type=jetpack-portfolio
+                )
+
+            [16] => Array
+                (
+                    [0] => Project Tags
+                    [1] => manage_categories
+                    [2] => edit-tags.php?taxonomy=jetpack-portfolio-tag&post_type=jetpack-portfolio
+                )
+
+        )
+
+    [edit.php?post_type=unit_type] => Array
+        (
+            [5] => Array
+                (
+                    [0] => All Units
+                    [1] => edit_unit_types
+                    [2] => edit.php?post_type=unit_type
+                )
+
+            [10] => Array
+                (
+                    [0] => Add New
+                    [1] => edit_unit_types
+                    [2] => post-new.php?post_type=unit_type
+                )
+
+            [15] => Array
+                (
+                    [0] => Buildings
+                    [1] => manage_categories
+                    [2] => edit-tags.php?taxonomy=building_taxonomy&post_type=unit_type
+                )
+
+        )
+
+    [themes.php] => Array
+        (
+            [5] => Array
+                (
+                    [0] => Themes
+                    [1] => switch_themes
+                    [2] => themes.php
+                )
+
+            [6] => Array
+                (
+                    [0] => Customize
+                    [1] => customize
+                    [2] => customize.php?return=%2Ftenantapp%2Fwp-admin%2Fplugins.php
+                    [3] => 
+                    [4] => hide-if-no-customize
+                )
+
+            [7] => Array
+                (
+                    [0] => Widgets
+                    [1] => edit_theme_options
+                    [2] => widgets.php
+                )
+
+            [10] => Array
+                (
+                    [0] => Menus
+                    [1] => edit_theme_options
+                    [2] => nav-menus.php
+                )
+
+            [15] => Array
+                (
+                    [0] => Header
+                    [1] => switch_themes
+                    [2] => customize.php?return=%2Ftenantapp%2Fwp-admin%2Fplugins.php&autofocus%5Bcontrol%5D=header_image
+                    [3] => 
+                    [4] => hide-if-no-customize
+                )
+
+            [20] => Array
+                (
+                    [0] => Background
+                    [1] => switch_themes
+                    [2] => customize.php?return=%2Ftenantapp%2Fwp-admin%2Fplugins.php&autofocus%5Bcontrol%5D=background_image
+                    [3] => 
+                    [4] => hide-if-no-customize
+                )
+
+        )
+
+    [plugins.php] => Array
+        (
+            [5] => Array
+                (
+                    [0] => Installed Plugins
+                    [1] => activate_plugins
+                    [2] => plugins.php
+                )
+
+            [10] => Array
+                (
+                    [0] => Add New
+                    [1] => install_plugins
+                    [2] => plugin-install.php
+                )
+
+            [15] => Array
+                (
+                    [0] => Editor
+                    [1] => edit_plugins
+                    [2] => plugin-editor.php
+                )
+
+        )
+
+    [users.php] => Array
+        (
+            [5] => Array
+                (
+                    [0] => All Users
+                    [1] => list_users
+                    [2] => users.php
+                )
+
+            [10] => Array
+                (
+                    [0] => Add New
+                    [1] => create_users
+                    [2] => user-new.php
+                )
+
+            [15] => Array
+                (
+                    [0] => Your Profile
+                    [1] => read
+                    [2] => profile.php
+                )
+
+            [16] => Array
+                (
+                    [0] => User Directories
+                    [1] => edit_pages
+                    [2] => edit.php?post_type=wpum_directory
+                    [3] => User Directories
+                )
+
+        )
+
+    [tools.php] => Array
+        (
+            [5] => Array
+                (
+                    [0] => Available Tools
+                    [1] => edit_posts
+                    [2] => tools.php
+                )
+
+            [10] => Array
+                (
+                    [0] => Import
+                    [1] => import
+                    [2] => import.php
+                )
+
+            [15] => Array
+                (
+                    [0] => Export
+                    [1] => export
+                    [2] => export.php
+                )
+
+        )
+
+    [options-general.php] => Array
+        (
+            [10] => Array
+                (
+                    [0] => General
+                    [1] => manage_options
+                    [2] => options-general.php
+                )
+
+            [15] => Array
+                (
+                    [0] => Writing
+                    [1] => manage_options
+                    [2] => options-writing.php
+                )
+
+            [20] => Array
+                (
+                    [0] => Reading
+                    [1] => manage_options
+                    [2] => options-reading.php
+                )
+
+            [25] => Array
+                (
+                    [0] => Discussion
+                    [1] => manage_options
+                    [2] => options-discussion.php
+                )
+
+            [30] => Array
+                (
+                    [0] => Media
+                    [1] => manage_options
+                    [2] => options-media.php
+                )
+
+            [40] => Array
+                (
+                    [0] => Permalinks
+                    [1] => manage_options
+                    [2] => options-permalink.php
+                )
+
+            [41] => Array
+                (
+                    [0] => Collapse-O-Matic
+                    [1] => manage_options
+                    [2] => collapse-o-matic-options
+                    [3] => Collapse-O-Matic Options
+                )
+
+        )
+
+    [edit-tags.php?taxonomy=link_category] => Array
+        (
+            [15] => Array
+                (
+                    [0] => Link Categories
+                    [1] => manage_categories
+                    [2] => edit-tags.php?taxonomy=link_category
+                )
+
+        )
+
+)
+Skip to main contentSkip to toolbar
+
+Dashboard
+Home
+Updates 
+9
+
+Jetpack
+Jetpack
+Settings
+Omnisearch
+
+Posts
+All Posts
+Add New
+Categories
+Tags
+
+Media
+Library
+Add New
+
+Pages
+All Pages
+Add New
+
+Portfolio
+All Projects
+Add New
+Project Types
+Project Tags
+
+Comments
+Feedback
+
+Units
+All Units
+Add New
+Buildings
+
+Forms
+All Forms
+Add New
+Submissions
+Import / Export
+Settings
+System Status
+Add-Ons
+Styling
+
+Appearance
+Themes
+Customize
+Widgets
+Menus
+Header
+Background
+About SG Double
+Edit CSS
+Editor
+
+Plugins 
+4
+Installed Plugins
+Add New
+Editor
+
+Users
+All Users
+Add New
+Your Profile
+User Directories
+Profile Fields
+WPUM Settings
+WPUM Tools
+WPUM Addons
+
+Tools
+Available Tools
+Import
+Export
+
+Settings
+General
+Writing
+Reading
+Discussion
+Media
+Permalinks
+Collapse-O-Matic
+
+Pods Admin
+Edit Pods
+Add New
+Components
+– Roles & Capabilities
+– Templates
+Settings
+Help
+Collapse menu
+About WordPress

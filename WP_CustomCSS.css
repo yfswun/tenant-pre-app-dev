@@ -1,0 +1,210 @@
+/* --- Begin: From sg-double --- */
+/* Hovers */
+.site-title h1 a:hover,
+.site #footer-navigation  .horisontal-navigation a:hover,
+.site .horisontal-navigation li ul li a:hover,
+.site .horisontal-navigation li ul li a:focus,
+.site .horisontal-navigation li a:hover,
+.site .horisontal-navigation li a:focus {
+/*color: rgba(255,255,255,.9);*/
+/* blue */
+	text-shadow: #2e7ebd 0 1px 2px;
+	text-decoration: none;
+	white-space: pre-line;
+/* blue */
+	border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+	border-radius: 6px;
+	outline: none;
+/* blue */
+	background: #60a3d8 linear-gradient(#89bbe2,#60a3d8 50%,#378bce);
+	box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+}
+
+.site-title h1 a:hover {
+	display: inline-block;
+}
+
+/* Colors */
+a:hover,
+.widget.sgwindow_recent_posts .content article footer a:hover,
+.content-container .entry-content a:hover,
+.comments-link a:hover,
+.entry-meta a:hover,
+.site-title a:hover,
+.site .author.vcard a:hover,
+.entry-header .entry-title a:hover,
+.site .widget .entry-meta a:hover,
+.category-list a:hover {
+/* blue */
+	color: #1e73be;
+}
+
+/* Top Menu */
+.sg-site-header-1 {
+	background: rgba(30,115,190,0.7);
+}
+
+/* top sidebar */
+#page .wide .widget {
+	border-left: none;
+	border-right: none;
+	border-top: 3px double #ccc;
+	border-bottom: 3px double #ccc;
+	margin: 0;
+}
+
+#page .wide .widget.widget_text {
+	padding: 20px;
+}
+
+@media screen and (min-width: 680px) {
+	#page .sidebar-footer {
+		position: relative;
+		z-index: 1;
+	}
+	
+	#page .menu-2.horisontal-navigation > div {
+		background: -moz-linear-gradient(left,rgba(252,252,252,0) 1%,rgba(252,252,252,1) 31%,rgba(252,252,252,1) 32%,rgba(253,253,253,1) 52%,rgba(254,254,254,1) 70%,rgba(255,255,255,0) 100%);
+	/* FF3.6+ */
+		background: -webkit-gradient(linear,left top,right top,color-stop(1%,rgba(252,252,252,0)),color-stop(31%,rgba(252,252,252,1)),color-stop(32%,rgba(252,252,252,1)),color-stop(52%,rgba(253,253,253,1)),color-stop(70%,rgba(254,254,254,1)),color-stop(100%,rgba(255,255,255,0)));
+	/* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(left,rgba(252,252,252,0) 1%,rgba(252,252,252,1) 31%,rgba(252,252,252,1) 32%,rgba(253,253,253,1) 52%,rgba(254,254,254,1) 70%,rgba(255,255,255,0) 100%);
+	/* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(left,rgba(252,252,252,0) 1%,rgba(252,252,252,1) 31%,rgba(252,252,252,1) 32%,rgba(253,253,253,1) 52%,rgba(254,254,254,1) 70%,rgba(255,255,255,0) 100%);
+	/* Opera 11.10+ */
+		background: -ms-linear-gradient(left,rgba(252,252,252,0) 1%,rgba(252,252,252,1) 31%,rgba(252,252,252,1) 32%,rgba(253,253,253,1) 52%,rgba(254,254,254,1) 70%,rgba(255,255,255,0) 100%);
+	/* IE10+ */
+		background: linear-gradient(to right,rgba(252,252,252,0) 1%,rgba(252,252,252,1) 31%,rgba(252,252,252,1) 32%,rgba(253,253,253,1) 52%,rgba(254,254,254,1) 70%,rgba(255,255,255,0) 100%);
+	/* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00fcfcfc',endColorstr='#00ffffff',GradientType=1);
+	/* IE6-9 */
+		padding: 0 20px;
+		border-top: 3px double #ccc;
+		border-bottom: 3px double #ccc;
+		margin: 20px auto;
+	}
+}
+
+/* Second Top Menu */
+.top-navigation ul {
+	background-color: #fff;
+}
+
+.top-navigation .horisontal-navigation li a {
+	color: #000000;
+}
+
+.top-navigation {
+	background-color: rgba(255,255,255,0.9);
+}
+
+.top-navigation .horisontal-navigation li ul {
+	background-color: #fff;
+}
+
+.top-navigation .horisontal-navigation li ul li a {
+	color: #000000;
+}
+
+.top-navigation .horisontal-navigation li ul .current-menu-ancestor > a,
+.top-navigation .horisontal-navigation li ul .current_page_ancestor > a {
+	background-color: #000000;
+	color: #fff;
+}
+
+/* Footer Menu */
+.top-navigation ul {
+	background-color: transparent;
+}
+
+.top-navigation .horisontal-navigation li a {
+	color: #000000;
+}
+
+/* Before Footer Sidebar */
+.sidebar-before-footer .widget {
+	background-color: rgba(234,234,234,1);
+}
+
+th,
+td,
+.sidebar-before-footer .widget ul li:before,
+.sidebar-before-footer .widget {
+	color: #828282;
+}
+
+.sidebar-before-footer a {
+	color: #1e73be;
+}
+
+.sidebar-before-footer a:hover {
+	color: #dd3333;
+}
+
+.sidebar-before-footer .widget .widgettitle,
+.sidebar-before-footer .widget .widget-title {
+	background: transparent;
+	color: #000;
+}
+
+/* content */
+#page .sidebar-before-footer {
+	background: rgba(234,234,234,1);
+}
+
+/* --- End: From sg-double --- */
+/* Navigation */
+/* Remove green menu hover background */
+/* https://wordpress.org/support/topic/sg-window-pro */
+#page .horisontal-navigation li ul li a:hover,
+#page .horisontal-navigation li ul li a:focus,
+#page .horisontal-navigation li a:hover,
+#page .horisontal-navigation li a:focus {
+	box-shadow: none;
+	background: transparent;
+/*color: #fff;*/
+/* dark red */
+	color: #FF0000;
+}
+
+/* Remove green coloring of next/previous buttons */
+.nav-link a {
+/* blue */
+	background: #60a3d8 linear-gradient(#89bbe2,#60a3d8 50%,#378bce);
+	box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+	color: dimgray;
+}
+
+/* Make the navigation links/buttons shorter (not "pre-line" so no line break before) */
+#page .nav-link a {
+	white-space: normal;
+}
+
+/* Make the navigation links/buttons narrower */
+@media screen and (min-width: 600px) {
+	.nav-link a {
+		width: 30%;
+	}
+}
+
+.content-container .entry-thumbnail {
+	float: right;
+	margin: 20px;
+}
+
+/* Undo the uppercase text-transform */
+#page .horisontal-navigation li a {
+	text-transform: none;
+}

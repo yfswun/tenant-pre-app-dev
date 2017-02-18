@@ -1,0 +1,34 @@
+# temp and others
+temp/
+backup/
+test/
+/wp-content/debug*.*
+/wp-content/themes/sg-double/
+/wp-content/themes/sg-window-child_OLD/
+/wp-content/uploads/
+
+
+# WP files
+wp-admin/
+wp-includes/
+/.htaccess
+/license.txt
+/readme.html
+/wp-config.php
+/*.php
+
+# Public plugins
+wp-content/plugins/akismet/
+wp-content/plugins/causes_error___debug-this/
+wp-content/plugins/jquery-collapse-o-matic/
+wp-content/plugins/ninja-forms-conditionals/
+wp-content/plugins/ninja-forms-multi-part/
+wp-content/plugins/ninja-forms-style/
+wp-content/plugins/ninja-forms/
+wp-content/plugins/php-code-for-posts/
+wp-content/plugins/pods/
+wp-content/plugins/postman-smtp/
+wp-content/plugins/regenerate-thumbnails/
+wp-content/plugins/theme-check/
+wp-content/plugins/wp-user-manager/
+wp-content/plugins/wpum-recaptcha/

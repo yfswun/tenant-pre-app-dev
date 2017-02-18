@@ -1,0 +1,5 @@
+reCAPTCHA
+Site Key
+6LcYaOYSAAAAAM9cq85Iq2qAsjwentmqWtfsCrq-
+Secret Key
+6LcYaOYSAAAAAIro8fNhUBdXN13RcvB7ILuk1xM8

@@ -1,0 +1,817 @@
+/*
+ Theme Name:  SG Window Child
+ Description: SG Window Child Theme
+ Author:      Sylvia Wun
+ Template:    sg-window
+ Version:     1.0.0
+*/
+
+/* --- Begin: From sg-double --- */
+
+/* scheme 0 */
+/* Hovers */
+/* White text, blue background */
+.site-title h1 a:hover,
+.site #footer-navigation  .horisontal-navigation a:hover,
+.site .horisontal-navigation li ul li a:hover,
+.site .horisontal-navigation li ul li a:focus,
+.site .horisontal-navigation li a:hover,
+.site .horisontal-navigation li a:focus {
+	color: rgba(255,255,255,.9) !important;
+	text-shadow: #2e7ebd 0 1px 2px !important;
+	text-decoration: none !important;
+	white-space: pre-line !important;
+	border-color: #60a3d8 #2970a9 #2970a9 #60a3d8 !important;
+	border-radius: 6px !important;
+	outline: none !important;
+	background: #60a3d8 linear-gradient(#89bbe2,#60a3d8 50%,#378bce) !important;
+	box-shadow: inset rgba(255,255,255,.5) 1px 1px !important;
+}
+
+.site-title h1 a:hover {
+	display: inline-block;
+}
+
+/* Colors */
+
+.content-container {
+	color:#323232 !important;
+}
+
+a:hover,
+.widget.sgwindow_recent_posts .content article footer a:hover,
+.content-container .entry-content a:hover,
+.comments-link a:hover,
+.entry-meta a:hover,
+.site-title a:hover,
+.site .author.vcard a:hover,
+.entry-header .entry-title a:hover,
+.site .widget .entry-meta a:hover,
+.category-list a:hover {
+	color: #1e73be; /* blue */
+}
+
+/* Top Menu */
+.sg-site-header-1 {
+	background: rgba(30,115,190,0.7) !important;
+}
+
+/* top sidebar */
+#page .wide .widget {
+	border-left: none;
+	border-right: none;
+	border-top: 3px double #ccc;
+	border-bottom: 3px double #ccc;
+	margin: 0;
+}
+
+#page .wide .widget.widget_text {
+	padding:10px;
+}
+
+@media screen and (min-width: 680px) {
+	#page .sidebar-footer {
+		position: relative;
+		z-index: 1;
+	}
+	
+	/* reduced padding and margin */
+	#page .menu-2.horisontal-navigation > div {
+		background-color:rgba(0,0,0,0);
+		padding: 0 15px;
+		border-top: 3px double #ccc;
+		border-bottom: 3px double #ccc;
+		margin: 12px auto;
+	}
+}
+
+/* Second Top Menu */
+.top-navigation ul {
+	background-color: #fff;
+}
+
+.top-navigation .horisontal-navigation li a {
+	color: #000000 !important;
+}
+
+.top-navigation {
+	background-color: rgba(255,255,255,0.9) !important;
+}
+
+.top-navigation .horisontal-navigation li ul {
+	background-color: #fff;
+}
+
+.top-navigation .horisontal-navigation li ul li a {
+	color: #000000;
+}
+
+.top-navigation .horisontal-navigation li ul .current-menu-ancestor > a,
+.top-navigation .horisontal-navigation li ul .current_page_ancestor > a {
+	background-color: #000000;
+	color: #fff;
+}
+
+/* Footer Menu */
+.top-navigation ul {
+	background-color: transparent;
+}
+
+.top-navigation .horisontal-navigation li a {
+	color: #000000;
+}
+
+/* Before Footer Sidebar */
+.sidebar-before-footer .widget {
+	background-color: rgba(234,234,234,1);
+}
+
+th,
+td,
+.sidebar-before-footer .widget ul li:before,
+.sidebar-before-footer .widget {
+	color: #828282;
+}
+
+.sidebar-before-footer a {
+	color: #1e73be;
+}
+
+.sidebar-before-footer a:hover {
+	color: #dd3333;
+}
+
+.sidebar-before-footer .widget .widgettitle,
+.sidebar-before-footer .widget .widget-title {
+	background: transparent;
+	color: #000;
+}
+
+/* content */
+#page .sidebar-before-footer {
+	background: rgba(234,234,234,1);
+}
+
+/* --- End: From sg-double --- */
+
+/* Navigation */
+/* Remove green menu hover background */
+/* https://wordpress.org/support/topic/sg-window-pro */
+#page .horisontal-navigation li ul li a:hover,
+#page .horisontal-navigation li ul li a:focus,
+#page .horisontal-navigation li a:hover,
+#page .horisontal-navigation li a:focus {
+	box-shadow: none;
+	background: transparent;
+	color: #FF0000; /* dark red */
+}
+
+/* Change background of next/previous buttons from green to blue */
+.nav-link a {
+	background: #60a3d8 linear-gradient(#89bbe2,#60a3d8 50%,#378bce) !important;
+	box-shadow: inset rgba(255,255,255,.5) 1px 1px !important;
+}
+
+@media screen {
+	.site-title, .site-title a {
+		font-size:20px;
+	}
+}
+@media screen and (min-width: 680px) {
+	.site-title, .site-title a {
+		font-size:28px;
+	}
+}
+@media screen {
+	h1 {
+		font-size:16px;
+	}
+	h2 {
+		font-size:14px;
+	}
+	h3 {
+		font-size:12px;
+		color:dimgray;
+	}
+	p {
+		margin-top:3px;
+		margin-bottom:3px;
+		padding-bottom:3px;
+	}
+}
+
+/* Make the navigation links/buttons shorter (not "pre-line" so no line break before) */
+#page .nav-link a {
+	white-space: normal;
+}
+
+/* Navigation links/buttons */
+.nav-link a {
+	width:auto;
+	padding:5px 15px;
+	border-radius:8px !important;
+}
+.nav-link a span {
+	font-size:0.8em;
+}
+
+.nav-link {
+	margin:0;
+	border:none !important;
+	background:transparent !important;
+}
+
+/**************************************/
+
+h1.entry-title {
+	padding-bottom:5px;
+	margin-top:15px !important;
+}
+
+/* Menu */
+
+/* Change top menu padding and margin */
+.site ul.nav-horizontal > li > a {
+	padding:8px 5px 6px 5px;
+	margin-top:6px;
+	margin-bottom:6px;
+}
+
+/* Change the menu font display */
+#page .horisontal-navigation li a {
+	font-size:11px;
+	font-weight:bold;
+	text-transform: none;
+}
+
+/* Child menu */
+ul.sub-menu {
+	width:150px !important;
+}
+
+.nav-horizontal li {
+	font-size:11px;
+	line-height:1.5;
+}
+
+.horisontal-navigation li ul li a, ul.sub-menu li a {
+	white-space:nowrap;
+	padding-top:3px;
+	padding-bottom:3px;
+	line-height:normal;
+	width:130px;
+}
+
+.horisontal-navigation li:after {
+	top:15px;
+	bottom:15px;
+}
+
+/* Hover on current menu item */
+.horisontal-navigation .current-menu-item a:hover,
+.horisontal-navigation .current_page_item a:hover {
+	padding-left:6px;
+	padding-right:10px;
+}
+
+/* Hover on parent menu items */
+@media screen and (min-width: 680px) {
+	.horisontal-navigation .menu-item-has-children > a:hover {
+		padding-left:10px;
+	}
+}
+
+/**************************************/
+
+/* Set logo and site title size/width */
+@media screen {
+	.logo-block .logo {
+		margin:0;
+		padding:0 0 0 10%;
+	}
+	.sg-site-header-1 {
+		width:85%;
+		padding-left:15% !important;
+	}
+}
+/*
+@media screen and (max-width: 1000px) {
+	.logo-block .logo {
+		margin:0;
+		padding:5% 0 0 10%;
+	}
+	.sg-site-header-1 {
+		width:85%;
+		padding-left:15%;
+	}
+}
+*/
+@media screen and (max-width: 760px) {
+	.logo-block .logo {
+		width:80%;
+		height:80%;
+		margin:0;
+		padding:8% 8% 8% 10%;
+	}
+	.sg-site-header-1 {
+		width:70%;
+		padding-left:30% !important;
+	}
+}
+@media screen and (max-width: 680px) {
+	.logo-block .logo {
+		width:80%;
+		height:80%;
+		margin:0;
+		padding:5% 5% 5% 8%;
+	}
+	.sg-site-header-1 {
+		width:70%;
+		padding-left:30% !important;
+	}
+}
+
+/* Set the logo to be at most the same height as the site title */
+a.logo-section img {
+	max-height:60px;
+}
+
+.widget {
+	font-size:10px;
+	line-height:1.2;
+}
+
+.site-info {
+	font-size:11px;
+}
+
+/**************************************/
+
+/* General */
+
+.main-area {
+	background-color:white !important;
+}
+
+.AlignCenter {
+	text-align:center;
+}
+
+.AlignRight {
+	text-align:right;
+}
+
+/* Feature image */
+
+.content-container .entry-thumbnail {
+	float:right;
+	padding:15px;
+}
+
+.content-container .entry-thumbnail > img {
+	border:1px solid lightgray;
+	padding:5px;
+	max-width:75%;
+}
+
+	/* Small screens: On own line and centered */
+	@media screen and (max-width: 680px) {
+		.content-container .entry-thumbnail {
+			float:none;
+			margin:auto;
+		}
+		.content-container .entry-thumbnail > img {
+			display:block;
+			margin:auto;
+		}
+	}
+
+/* Change Scroll to top from button to text */
+
+.scrollup {
+	background:none;
+	width:auto;
+	height:auto;
+	color:white;
+	background-color:gray;
+	padding:5px 8px;
+	text-align:center;
+	letter-spacing:1px;
+}
+
+.scrollup:before {
+	content:'\2191 ';
+}
+
+.scrollup:after {
+	content:' Top';
+}
+
+.scrollup:hover {
+	color:white;
+	-ms-transform:scale(1.1); /* IE 9 */
+	-webkit-transform:scale(1.1); /* Chrome, Safari, Opera */
+	transform:scale(1.1);
+}
+
+.textwidget {
+	color:white;
+}
+
+/**************************************/
+
+/* Float Section */
+
+.FloatSectionContainer {
+	width:100%;
+	padding:0 10px;
+	margin:auto;
+}
+
+.FloatSectionCell {
+	width:auto;
+	margin:5px;
+	background-color:white;
+	border:1px solid lightgray;
+	float:left;
+}
+
+.FloatSectionCell figure {
+	margin:5px;
+}
+
+.FloatSectionCell .wp-caption-text {
+	font-size: 11px;
+	margin:5px 0;
+	text-align:center;
+}
+
+.FloatSectionCell div.wp-caption .wp-caption-text {
+	padding-right:0;
+}
+
+.FloatSectionClear {
+	clear:both;
+}
+
+/**************************************/
+
+/* Micro Clearfix */
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+	*zoom: 1;
+}
+/**************************************/
+
+h3#CollapseOMaticSection {
+	margin-bottom:0;
+}
+.collapseomatic {
+	color:#60a3d8;
+}
+.collapseomatic_content {
+	margin-right:12px;
+	margin-bottom:16px;
+	padding:10px;
+	background-color:#f0f0f0;
+	border:solid 1px #c8c8c8;
+}
+
+/**************************************/
+
+figcaption.wp-caption-text {
+	color:black;
+	font-style:normal;
+}
+
+/**************************************/
+
+div.TPASubForm {
+	width:100%;
+}
+
+p.TPASubForm {
+	color:#303030 !important;
+}
+
+p.TPASubForm.msg {
+	font-size:14px;
+}
+
+#view_limits {
+	padding-left:10px;
+}
+
+h2.TPASubForm {
+	padding-top:8px;
+	padding-bottom:3px;
+}
+
+.FormLinks {
+	width:100%;
+}
+
+a.FormAction {
+	float:right;
+	margin:5px;
+	border:1px solid black;
+	line-height:auto;
+	color:#993300;
+/*	text-shadow:1px 1px 1px #993300;*/
+	font-weight:bold;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	box-shadow:3px 3px 1px #555555;
+	-moz-box-shadow:3px 3px 1px #555555;
+	-webkit-box-shadow:3px 3px 1px #555555;
+	transition:all 0.5s ease 0s;
+	-moz-transition:all 0.5s ease 0s;
+	-webkit-transition:all 0.5s ease 0s;
+	-ms-transition:all 0.5s ease 0s;
+	-0-transition:all 0.5s ease 0s;
+}
+
+.LinkText {
+	padding:5px 15px 5px 5px;
+	font-size:0.85em;
+}
+@media only screen and (max-width:760px) {
+	.LinkText {
+		position:absolute !important;
+		top:-9999px !important;
+		left:-9999px !important;
+	}
+}
+
+a.FormAction:hover {
+	color:red;
+	background-color:#ffcc00;
+	text-decoration:none;
+}
+
+a.FormAction:active {
+	box-shadow:2px 1px 1px #555555;
+	-moz-box-shadow:2px 1px 1px #555555;
+	-webkit-box-shadow:2px 1px 1px #555555;
+	transform:translateY(2px);
+}
+
+.fa-stack {
+	padding:5px;
+}
+
+.fa-square {
+	color:#993300;
+}
+
+/* <<<- Tables */
+
+.TPATableWrapper {
+	overflow:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+table.TPASubForm
+, thead.TPASubForm, tbody.TPASubForm, th.TPASubForm, td.TPASubForm
+, table.TPASubForm:before, table.TPASubForm:after
+, thead.TPASubForm:before, tbody.TPASubForm:before, th.TPASubForm:before, td.TPASubForm:before
+, thead.TPASubForm:after, tbody.TPASubForm:after, th.TPASubForm:after, td.TPASubForm:after
+{
+	box-sizing:border-box;
+}
+
+table.TPASubForm {
+	width:100%;
+	min-width:760px;
+	border-collapse:collapse;
+	border-spacing:0;
+	border-width:2px;
+	line-height:1.1;
+}
+
+th.TPASubForm, td.TPASubForm {
+	font-size:12px;
+}
+@media only screen and (max-width:760px) {
+	th.TPASubForm, td.TPASubForm {
+		font-size:10px;
+	}
+}
+
+thead.TPASubForm, tbody.TPASubForm, tr.TPASubForm, th.TPASubForm, td.TPASubForm {
+	display:block;
+}
+
+tr.TPASubForm:after {
+	content:' ';
+	display:block;
+	visibility:hidden;
+	clear:both;
+}
+
+thead.TPASubForm th.TPASubForm { 
+	color:#b20000 !important;
+	text-transform:none;
+	text-align:center;
+	padding:3px;
+}
+
+td.TPASubForm {
+	color:#303030 !important;
+	padding:3px;
+}
+
+/* Monthly Rent */
+td.TPASubForm.TPACol7:nth-of-type(5) {
+	text-align:right;
+	padding-right:4%;
+}
+/* Required Minimum Income */
+td.TPASubForm.TPACol7:nth-of-type(6) {
+	text-align:right;
+	padding-right:5%;
+}
+/* Required Maximum Income */
+td.TPASubForm.TPACol7:nth-of-type(7) {
+	text-align:right;
+	padding-right:5%;
+}
+
+tbody.TPASubForm {
+	overflow-x:auto;
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#7a7a7a;
+}
+
+/* <<< Column widths */
+
+thead.TPASubForm th.TPASubForm.TPACol4, tbody.TPASubForm td.TPASubForm.TPACol4 {
+	width:25%;
+}
+
+/*
+thead.TPASubForm th.TPASubForm.TPACol7, tbody.TPASubForm td.TPASubForm.TPACol7 {
+*/
+	/* fallback */
+/*	width:14.2857%;*/
+	/* border-box includes content and borders, but not margins */
+/*	width:calc(100%/7);
+}
+*/
+th.TPASubForm.TPACol7:nth-of-type(1), td.TPASubForm.TPACol7:nth-of-type(1) {width: 16%;}
+th.TPASubForm.TPACol7:nth-of-type(2), td.TPASubForm.TPACol7:nth-of-type(2) {width: 15%;}
+th.TPASubForm.TPACol7:nth-of-type(3), td.TPASubForm.TPACol7:nth-of-type(3) {width: 10%;}
+th.TPASubForm.TPACol7:nth-of-type(4), td.TPASubForm.TPACol7:nth-of-type(4) {width: 10%;}
+th.TPASubForm.TPACol7:nth-of-type(5), td.TPASubForm.TPACol7:nth-of-type(5) {width: 15%;}
+th.TPASubForm.TPACol7:nth-of-type(6), td.TPASubForm.TPACol7:nth-of-type(6) {width: 17%;}
+th.TPASubForm.TPACol7:nth-of-type(7), td.TPASubForm.TPACol7:nth-of-type(7) {width: 17%;}
+
+/* Column widths >>> */
+
+
+thead.TPASubForm th.TPASubForm, tbody.TPASubForm td.TPASubForm {
+	float:left;
+	border-right-width:1px;
+	border-right-style:dotted;
+}
+
+.units th.TPASubForm {
+	height:34px;
+}
+
+thead.TPASubForm th.TPASubForm:last-child, tbody.TPASubForm td.TPASubForm:last-child {
+	border-right:none;
+}
+
+tbody.TPASubForm tr.TPASubForm:first-child td {
+	border-top:none;
+}
+
+
+/* Alternate row colors */
+thead.TPASubForm {
+	background-color:#d5e8f8;
+}
+tbody.TPASubForm tr.TPASubForm:nth-child(even) {
+	background-color:#f0f0f0;
+}
+tbody.TPASubForm tr.TPASubForm:nth-child(odd) {
+	background-color:white;
+}
+
+
+
+/* CSS display:table */
+
+.TPATable {
+	display:table;
+	border-collapse:collapse;
+	margin: 15px 10px 25px 10px;
+}
+
+.TPARow {
+	display:table-row;
+}
+
+.TPACell {
+	display:table-cell;
+	border:1px solid #ccc;
+	padding:5px 10px;
+}
+
+.c2-1 {
+	width:70%;
+}
+.c2-2 {
+	width:30%;
+}
+
+/* Tables >>> */
+
+#SubmissionDT {
+	float:right;
+	text-align:right;
+}
+
+/*
+.table {
+	display:table;
+	width:100%;
+	border-collapse:collapse;
+}
+
+.table-row {
+	display:table-row;
+}
+
+.table-cell, .table-head {
+	display:table-cell;
+	padding:1em;
+	border:1px solid #ccc;
+}
+
+.table-head {
+	font-weight:bold;
+	text-align:center;
+}
+*/
+
+/**************************************/
+
+/* Pre-Application Form */
+
+/* New form layout */
+/*
+.pre_app_form {
+	width:300px;
+	margin:auto;
+}
+*/
+
+/* Ninja Forms */
+
+.field-wrap {
+	margin-bottom:10px !important;
+}
+
+/* Hide 'x characters left' */
+.input-counter {
+	display:none;
+}
+
+input[type="hidden"] {
+	display:none;
+	width:0;
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+/**************************************/
